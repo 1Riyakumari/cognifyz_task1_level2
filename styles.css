@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #14d531;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#home{
+    background-color: beige;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #abe799;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color:#14d531;
+}
+.study{
+    margin-top: 20px;
+     
+    
+}
+section {
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color:#14d531;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#abe799;
+
+    
+}
+    #tips{
+    background-color: antiquewhite;
+    text-align:center ;
+    }
+
+    .tip1{
+        margin-bottom: 20px;
+    }
+    .tip2{
+        margin-bottom: 20px;
+    }
+   
+#resources{
+    background-color: aquamarine;
+    text-align:center ;
+}
+
+    
+.tips, .resources {
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+    
+#subscribe{
+    background-color: aliceblue;
+}
